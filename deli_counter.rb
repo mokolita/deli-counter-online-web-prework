@@ -3,14 +3,15 @@ def takeANumber(katzDeliLine,name)
   return `Welcome, ${name}. You are number ${katzDeliLine.length} in line.`
 end 
 
-function nowServing(katzDeliLine) {
-  if(katzDeliLine>[]) {
+def now_serving
+  if(katzDeliLine>[]) 
     return `Currently serving ${katzDeliLine.shift()}.`
-  }
-  else {
+  
+  else 
     return "There is nobody waiting to be served!"
-  }
-}
+  end 
+end 
+  
 
 def line(katzDeliLine) 
 var line=[]
