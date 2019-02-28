@@ -5,7 +5,8 @@ def line(array)
     puts "The line is currently empty."
   
   
-  else array >= 1 
+  else array >= 1
+    array.push(name)
     puts "The line is currently: #{counter}. #{name} "
     counter += 1 
   end 
