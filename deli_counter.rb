@@ -4,6 +4,4 @@ def line(array)
     puts "The line is currently empty."
   end 
   
- else array >= 1 
-   puts "#{array}"
 end
