@@ -16,7 +16,7 @@ end
 def line(katzDeliLine) 
 var line=[]
 if(katzDeliLine>[]) 
-  for(var i=0;i<katzDeliLine.length;i++) 
+  for var i=0;i<katzDeliLine.length 
       line.push( ${i+1}. ${katzDeliLine[i]})
     
     return "The line is currently:" + line
