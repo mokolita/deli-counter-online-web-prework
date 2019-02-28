@@ -6,8 +6,9 @@ def line(array)
   
   
   else array >= 1
-    array.push(name)
+    array.push do |name|
     puts "The line is currently: #{counter}. #{name} "
     counter += 1 
+  end 
   end 
 end
