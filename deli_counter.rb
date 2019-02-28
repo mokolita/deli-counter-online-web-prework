@@ -22,5 +22,5 @@ if(katzDeliLine>[])
 
     else 
       return "The line is currently empty."
-    
+    end 
 end
